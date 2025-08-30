@@ -4,7 +4,7 @@ setup(
     name='clean-code-analyzer',
     version='0.1',
     packages=find_packages(),
-    install_requires=[],
+    install_requires=['requests', 'pylint'],  # Added necessary dependencies
     entry_points={
         'console_scripts': [
             'clean-code-analyzer=analyzer:main',
