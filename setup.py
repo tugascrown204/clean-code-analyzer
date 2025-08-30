@@ -11,6 +11,8 @@ setup(
         ],
     },
     description='A tool to analyze Python code for clean code practices',
+    long_description_content_type='text/markdown',
+    long_description=open('README.md').read(),  # Added long description from README
     author='Your Name',
     author_email='your.email@example.com',
     url='https://github.com/yourusername/clean-code-analyzer',
