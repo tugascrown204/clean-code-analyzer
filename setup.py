@@ -15,4 +15,9 @@ setup(
     author_email='your.email@example.com',
     url='https://github.com/yourusername/clean-code-analyzer',
     license='MIT',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
 )
